@@ -1,62 +1,70 @@
-
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #000d1a;
-        color: white;
-        text-align: center;
-        
-    .container {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 0 20px;
-    }
-    h1, h2 {
-        margin-top: 30px;
-    }
-    p {
-        line-height: 1.6;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 5px;
-        padding: 10px;
-    }
-    li {
-        margin-bottom: 10px;
-    }
-    li::before {
-        content: "✓ ";
-        color: #00ff00;
-    }
-   
-    .photo-gallery {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-    }
-    .photo-gallery img {
-        width: 30%;
-        border-radius: 5px;
-        margin-right: 10px;
-        cursor: pointer;
-    }
-    .photo-gallery img:hover {
-        transform: scale(1.2);
-        transition: transform 0.3s ease;
-    }
-    #social-media li::before {
-        content: none;
-    }
-    #specifications li::before {
-overflow: auto;
-max-width: 1000px;
-max-height: 300px;
-margin-top: 100px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* changed from #000d1a to white */
+    color: #000000; /* changed from white to black */
+    text-align: center;
 }
 
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.1); /* changed from rgba(255, 255, 255, 0.1) to black with opacity */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: "✓ ";
+    color: #00ff00;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo-gallery img {
+    width: 30%;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.photo-gallery img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+#social-media li::before {
+    content: none;
+}
+
+#specifications li::before {
+    overflow: auto;
+    max-width: 1000px;
+    max-height: 300px;
+    margin-top: 100px;
+}
