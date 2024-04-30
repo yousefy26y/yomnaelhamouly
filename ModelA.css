@@ -1,4 +1,5 @@
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
     body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -6,18 +7,47 @@
         background-color: #000d1a;
         color: white;
         text-align: center;
-        
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    nav {
+        background-color: #666;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 16px;
+        margin: 0 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+        background-color: red;
+    }
+
     .container {
         max-width: 800px;
         margin: 20px auto;
         padding: 0 20px;
     }
+
     h1, h2 {
         margin-top: 30px;
     }
+
     p {
         line-height: 1.6;
     }
+
     ul {
         list-style-type: none;
         margin: 0;
@@ -27,36 +57,93 @@
         border-radius: 5px;
         padding: 10px;
     }
+
     li {
         margin-bottom: 10px;
     }
+
     li::before {
         content: "✓ ";
         color: #00ff00;
     }
-   
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        padding: 8px 16px;
+        margin: 0 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    footer a:hover {
+        background-color: #444;
+    }
+
     .photo-gallery {
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
     }
+
     .photo-gallery img {
         width: 30%;
         border-radius: 5px;
         margin-right: 10px;
         cursor: pointer;
     }
+
     .photo-gallery img:hover {
         transform: scale(1.2);
         transition: transform 0.3s ease;
     }
+
     #social-media li::before {
         content: none;
     }
-    #specifications li::before {
+
+   #specifications li::before {
 overflow: auto;
 max-width: 1000px;
 max-height: 300px;
 margin-top: 100px;
 }
+
+    .footer {
+        background-color: #002233;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 30px;
+        font-size: 0.8em;
+    }
+
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer p {
+        margin: 5px 0;
+    }
+</style>
+<div class="footer">
+    <p>© 2024 Mercedes-Benz. All rights reserved.</p>
+    <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a> |
+        <a href="#">Contact Us</a>
+    </p>
+</div>
 
