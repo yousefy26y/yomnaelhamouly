@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="car website"/>
+  <title> mercedes-benz </title>
+ <link rel="stylesheet" href="contactus.css">
+ <link rel="stylesheet" href="style.css">
+ <script type="text/javascript" src="contactus.js"></script>	
+ <script type="text/javascript" src="style.js"></script>	
+ </head>
+ <body>
+<header>
+	
+	
+	<div class="nav">
+  	 <a class="active" href="homee.html" target="_blank"">Home</a>
+ 	 <a href="login.html" target="_blank">login</a>
+ 	 <a href="vehicle.html" target="_blank"> Buy vehicle </a>
+ 	 <a href="dealer.html" target="_blank">Dealer search</a>
+ 	 <a href="Maintenance.html" target="_blank">repair & maintenance</a>
+ 	 <a href="news.html" target="_blank"> news & events</a>
+ 	 <a href="SpareParts.html" target="_blank"> accessories&merchandise</a>
+ 	 <a href="OurHistory.html"target="_blank" > History</a>
+<ul >
+	  <li class="dropdown">
+  	  <a href="javascript:void(0)" class="dropbtn">Models</a>
+   	  <div class="dropdown-content">
+     	  <a href="ModelA.html" target="_blank">Model A</a>
+      	  <a href="ModelB.html" target="_blank">Model B</a>
+      	  <a href="ModelC.html" target="_blank">Model C</a>
+	  <a href="ModelB.html" target="_blank">Model E</a>
+    </div>
+  </li>
+</ul>
+	</div>
+      
+</header>
+	<h3>Please get in touch with us </h3>
+	<p class="dis" >We will be pleased to answer any question you may have about Mercedes-Benz products and services.<br>
+	We welcome your comments and suggestions.<br>To contact us , please complete the form below.</p>
+	<p class="note">Note:Please fill in all fields marked with *</p>
+	<h2>Personal Data</h2>
+	<section>
+	<img src="footer2.jpg" alt="form" id="image-form2">
+	<form action="" class="form">
+		<input id="mr" type="radio" name="mrso" value="man">
+		<label for="mr">Mr.</label>
+			<br>
+		<input id="ms" type="radio" name="mrso" value="lady">
+		<label for="ms">Mrs.</label>
+			<br>
+		<input id="other" type="radio" name="mrso" value="other">
+		<label for="other">Other</label>
+			<br>
+			<br>
+		<label for="name"></label>
+		<input id="name" type="text" required placeholder="Name*" name="name" autofocus>
+			<br>						
+			<br>
+		<label for="surname"></label>
+		<input id="surname" type="text" required placeholder="Surname*" name="surname" >
+			<br>						
+			<br>
+		<label for="mail" ></label>
+		<input id="mail" type="email" required placeholder="E-mail*" name="email">
+			<br>
+			<br>
+		<label for="phone"></label>
+		<input id="phone" type="text" required placeholder="Phone number*" name="phone">
+			<br>						
+			<br>
+		<label for="address"></label>
+		<input id="address" type="text"  placeholder="Address" name="adress">
+			<br>						
+			<br>
+		<label for="city"></label>
+		<input id="city" type="text"  placeholder="City" name="city">
+			<br>						
+			<br>
+
+		<label for="type"></label>
+		<input id="type" list="enquirytype" name="type" placeholder="Type of enquiry*">
+			<datalist id="enquirytype" >
+				<option value="A-class">
+				<option value="B-class">
+				<option value="C-class">
+				<option value="E-class">
+				<option value="G-class">
+				<option value="S-class">
+				<option value="V-class">
+				<option value="GLA">
+				<option value="GLC">
+				<option value="GLE">
+				<option value="GLS">
+				<option value="GLV">
+			
+			
+			</datalist>
+			<br>
+			<br>
+		<p class="ff">Please leave youe query here:</p>
+		<textarea name="review" cols="40" rows="10" placeholder="write your feedback"> 
+		</textarea>
+		<img src="form.jpg" alt="form" id="image-form">
+		<br><br>
+		<p class ="ff">Please select preferred communication channel*<p>
+	<br>
+		<input id="email" type="checkbox" name="mrso" value="mail">
+		<label for="email">Email*.</label>
+			<br>
+		<input id="call" type="checkbox" name="mrso" value="call">
+		<label for="call">Phone call *</label>
+			<br>
+		<input id="SMS" type="checkbox" name="mrso" value="SMS">
+		<label for="SMS">SMS *</label>
+			<br>
+			<br>
+		<p class="submit">By clicking "Submit":I agree tp Mercedes-Benz AG <br>storing my details for the purpose of contacting me at a later date</p>
+		<br>
+		<button id="clickButton">Submit</button>
+   <p id = "output"></p>
+		
+	</form>
+	</section>
+	<footer>
+ 
+			<a  class="contact"  href="contactus.html" target="_blank" >contact us </a>				
+			<a  class="about"  href="AboutUs.html" target="_blank" >about us</a><br><br><br>
+			<button id="darkmode" class="theme" onclick="darkmode();darkmode2();darkmode3();darkmode4();darkmode5();">Theme2</button>
+	</footer>
+ </body>
+</html>

@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2; /* Light mode background color */
+    color:white /* Light mode text color */
+    margin-top: 20px; /* Add margin to separate tables from heading */
+}
+th, td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2; /* Light mode header background color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 120px auto 0;
+    padding: 20px;
+	color:white;
+}
+h1, h2 {
+	color:white;
+    text-align: center;
+}

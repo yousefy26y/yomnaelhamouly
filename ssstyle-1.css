@@ -1,0 +1,203 @@
+body{
+	background-color: #000d1a;}
+
+	body {
+		background-color: #131314;
+	   }
+	   
+	   .imgg {
+		width: 1300px;
+		height: 470px;
+		object-fit: cover;
+	   }
+
+	   .imggg {
+		width: 580px;
+		height: 270px;
+		object-fit: cover;
+		float: left;
+		margin-right: 60px;
+	   }
+
+	   .imgggg {
+		width: 580px;
+		height: 270px;
+		object-fit: cover;
+		float: right;
+		margin-left: 60px;
+	   }
+
+	   li {
+		color: white;
+		
+	   }
+
+	   .posit {
+		width: 87%;
+		position: absolute;
+		left: 7%;
+	   }
+
+	   p {
+		color: white;
+		font-size: 17px;
+
+	   }
+
+	   .container {
+		height: max-content;
+		top: 50%;
+		left: 40%;
+	   }
+
+	   .textt {
+		color:whitesmoke;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20px;
+		position: absolute;
+		top: 30%;
+		left: 43.5%;
+	   }
+	   
+	   .stuttgart-hero {
+
+		background-image: url("stuttgart-hero.jpg");
+		background-size: cover;
+		background-position: 70% 20%;
+		height: 250px;
+		width: 1510px;
+	   }
+
+	   .main {
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	   }
+
+	   .hrr{
+	   color: white;
+	   width: 1100px;
+	   position: absolute;
+	   top: 845px;
+	   left: 102px;
+	  }
+
+	  .khatt {
+	   color: white;
+	   width: 400px;
+	   position: absolute;
+	   top: 1145px;
+	   left: 750px;
+	  } 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+}
+
+
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.nav {
+  overflow: hidden;
+  background-color:white;
+}
+
+.nav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 50px 20px;
+	text-decoration: none;
+	
+	font-size: 1.5vw;
+}
+
+.nav a:hover {
+	background-color: #000d1a;
+	color:white;
+	text-decoration: none;
+	border-style:solid;
+	border-width: 2.5px 1px 1px 2.5px; 
+	border-color:#666666#1f1f14   #1f1f14 #666666 ;
+	border-radius: 30px;
+}
+
+.theme{
+	margin:0px 40px 20px 380px;
+   float: left;
+   color: black;
+   text-align: center;
+   padding: 20px 15px 20px 15px;
+   background-color: #000d1a;
+   color:white;
+   border-style:solid;
+   border-width: 2.5px 1px 1px 2.5px; 
+   border-color:#666666#1f1f14   #1f1f14 #666666 ;
+   border-radius: 50px;
+   font-size:2.5vw;
+   font-family: "Times New Roman", Times, serif;}
+
+
+footer{
+        
+      background-color:white;
+	position:relative;
+ 	 top:1630px;
+  	 width: 1511px;
+  	 height: 150px;}
+footer a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 20px 15px 20px 15px;
+	text-decoration: none;
+	background-color: #000d1a;
+	color:white;
+	border-style:solid;
+	border-width: 2.5px 1px 1px 2.5px; 
+	border-color:#666666#1f1f14   #1f1f14 #666666 ;
+	border-radius: 50px;
+	font-size:2.5vw;
+	margin: 20px 150px 20px 0px ;
+}
+a.theme{margin: 20px 200px 20px 350px ;}
+a.about{margin: 20px 10px 20px 200px; }
+footer a:hover{
+	background-color:#d7d7c1;
+	text-decoration: none;
+	display: inline;
+	color:black; } 

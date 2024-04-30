@@ -1,0 +1,105 @@
+  /* Global styles */
+        body {
+            
+            background-size: cover;
+           
+            background-size: cover;
+        }
+
+      
+
+         h1 {
+            color: #fff;
+         
+            text-align: center;
+         }
+            form {
+                display: flex;
+                align-items: center; /* Center items vertically */
+              }
+              
+              h2 {
+                margin-right: 10px; 
+                color:#fff;
+              }
+              h3{
+                margin-right: 10px; 
+                color:#fff;
+              }
+    
+
+        h4{
+            color: #fff;
+         
+           
+        }
+            
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            width: 10%;
+            height: 15;
+           
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Main content styles */
+        main {
+           background-color: #000d1a;
+           background-image: url("background-photo.jpg");
+        
+        }
+        input[type=text] {
+            width: 30%;
+            box-sizing: border-box;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgb(73, 72, 72);
+            background-image: url('searchicon.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+          
+          }
+        .photo-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .photo-caption {
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+       
+        video {
+            width: 50%;
+            height: auto;
+          
+          }
+
+
+        /* Dealer list styles */
+	#dealers {
+    display: block;
+}
+
+        ul li.dealer {
+          color:white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            box-shadow: white;
+        }
+
+        p{
+            color:white;
+        }
